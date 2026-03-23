@@ -83,6 +83,5 @@ se incluyen funcionalidades extras que mejoran la experiencia del usuario y el d
 Ejecución
 
 Para ejecutar el proyecto solo es necesario abrir el archivo `index.html` en el navegador o acceder al siguiente enlace:
-https://rosagel.github.io/tienda-web/
 
 👉 https://rosagel.github.io/tienda-web/
