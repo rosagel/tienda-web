@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Casa Rosagel</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h1 class="titulo">Casa Rosagel</h1>
+    <p class="subtitulo">"Fiel a tu estilo"</p>
+</header>
+
+<section class="catalogo" id="catalogo"></section>
+
+<section class="carrito">
+    <h2>Carrito de compras</h2>
+    <div id="lista-carrito"></div>
+    <p>Subtotal: $<span id="subtotal">0</span></p>
+    <p>IVA (16%): $<span id="iva">0</span></p>
+    <p>Total: $<span id="total">0</span></p>
+    <button id="vaciar">Vaciar carrito</button>
+</section>
+
+<script src="js/productos.js"></script>
+<script src="js/carrito.js"></script>
+
+</body>
+</html>
